@@ -1,7 +1,13 @@
 import React from "react";
 
 const App = () => {
-  return <div>App first we will add navbar</div>;
+  return (
+    <>
+      <h1>Hello react js</h1>
+      <h1>diffrent section</h1>
+      <h1>mobile view</h1>
+    </>
+  );
 };
 
 export default App;
