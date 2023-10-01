@@ -1,0 +1,62 @@
+.product-slider {
+  width: auto;
+  height: 80vh;
+  margin-top: 0;
+}
+
+@media (max-width: 1000px) {
+  .product-slider {
+    height: 400px;
+  }
+}
+
+#dark .product-slider {
+  color: white;
+  background-color: rgb(97, 82, 79);
+  height: auto;
+}
+
+.content-slider {
+  padding: 10px;
+  color: rgb(255, 253, 253);
+  background-color: #ff854c;
+  margin: 5px;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.content-slider:hover {
+  background-color: #fa9667;
+  cursor: pointer;
+  box-shadow: -6px 11px 5px -4px rgba(204, 132, 132, 0.86);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(204, 132, 132, 0.86);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(204, 132, 132, 0.86);
+}
+
+.content-slider img {
+  height: 180px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 40px;
+  display: block;
+  object-fit: cover;
+}
+
+.content-slider h4 {
+  font-family: "Sacramento", cursive;
+}
+
+.slick-prev::before {
+  font-size: 30px;
+  color: #4cff88 !important;
+}
+
+.slick-next::before {
+  font-size: 30px;
+  color: #4cff88 !important;
+}
+
+.slick-disable {
+  pointer-events: none;
+}

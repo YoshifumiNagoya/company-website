@@ -1,0 +1,106 @@
+.footer {
+  height: auto;
+  margin: 0px;
+  background-color: #030749;
+}
+
+@media (max-width: 1000px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-about-section {
+    margin-right: 30px;
+  }
+  .footer-about-section h6 {
+    margin-left: 0;
+  }
+  .footer-about-section p {
+    margin-left: 0;
+  }
+  .footer-item p {
+    margin-left: 0;
+  }
+}
+
+.footer-about-section {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.footer-about-section h6 {
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.footer-social-icons {
+  display: flex;
+  color: orange;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.footer-social-icons p {
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-icons p:hover {
+  color: rgba(233, 170, 75, 0.767);
+  cursor: pointer;
+}
+
+.footer-item li {
+  color: white;
+  list-style-type: none;
+  padding: 8px;
+}
+
+.footer-item p {
+  color: aliceblue;
+  margin-left: 0;
+}
+
+.footer-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  cursor: pointer;
+  border: solid 1px red;
+  border-radius: 5px;
+}
+
+.company-name {
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+li {
+  --border-color: white;
+  --border-width: 2px;
+  --border-distance: 0px;
+  display: block;
+  background-image: linear-gradient(var(--border-color), var(--border-color));
+  background-size: 0% var(--border-width);
+  background-repeat: no-repeat;
+  transition: background-size 0.5s;
+}
+
+.footer-item li {
+  background-position: 0 calc(100% - var(--border-distance));
+  color: white;
+  width: fit-content;
+}
+
+.footer-item li:hover {
+  background-size: 100% var(--border-width);
+  cursor: pointer;
+  color: rgb(51, 236, 227);
+}

@@ -1,0 +1,81 @@
+.home {
+  height: 100vh;
+  color: #fff;
+  background-color: #aca0a9da;
+  position: relative;
+}
+
+.home::before {
+  content: "";
+  background: url("../../assets/car.png") no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.home-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.product-details {
+  background-color: #0b0d92;
+  text-align: center;
+  width: 40%;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.product-details:hover {
+  background-color: #74cfdf;
+  text-align: center;
+  width: 40%;
+  color: black;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.theme-change {
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 7px;
+  margin-top: 250px;
+  background-color: #6b28d6;
+  right: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+  vertical-align: middle;
+  position: fixed;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .theme-change {
+    display: none;
+  }
+}
+
+.theme-icon {
+  animation: rotation infinite 6s linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

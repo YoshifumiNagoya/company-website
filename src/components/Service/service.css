@@ -1,0 +1,69 @@
+.service-section {
+  min-height: 900px;
+  margin-top: 15px;
+}
+
+@media (max-width: 1000) {
+  .service-section {
+    height: auto;
+  }
+}
+
+.services {
+  margin-top: 100px;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+}
+
+.services:hover {
+  cursor: pointer;
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  transition: 1s;
+}
+
+.service-number {
+  display: block;
+  border-radius: 90px;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  margin-top: -50px;
+}
+
+service-number img {
+  vertical-align: middle;
+  line-height: 150px;
+}
+
+.section_title h5 {
+  text-align: center;
+  font-family: "メイリオ", "Meiryo", "Hiragino Kaku Gothic ProN",
+    "ヒラギノ角ゴ ProN W3", sans-serif;
+}
+
+.service_item_underline {
+  display: block;
+  width: 100%;
+  height: 0.1px;
+  margin-bottom: 5px;
+  background-color: blueviolet;
+}
+
+.service-content {
+  height: 96px;
+}
+
+.list-of-service p {
+  text-align: left;
+}
