@@ -1,9 +1,11 @@
-デスクトップ
-![desktop-version (1)](https://github.com/YoshifumiNagoya/company-website/assets/142734255/3db9099a-6b97-48dd-8804-723d3fe942c7)
-スマートフォン
-![mobile-version](https://github.com/YoshifumiNagoya/company-website/assets/142734255/8a63351c-9007-42e6-86e2-f17a22faef2d)
+#デスクトップ ![desktop-version (1)](https://github.com/YoshifumiNagoya/company-website/assets/142734255/3db9099a-6b97-48dd-8804-723d3fe942c7)
 
 
+
+#スマートフォン ![mobile-version](https://github.com/YoshifumiNagoya/company-website/assets/142734255/8a63351c-9007-42e6-86e2-f17a22faef2d)
+
+
+一部、ハードコーディングで書いています。
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
