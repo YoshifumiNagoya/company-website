@@ -110,6 +110,7 @@ const Contact = () => {
                     onChange={(e) => setMessageType(e.target.value)}
                   />
                 </div>
+                {/* onClick={sendEmailInfo} * フロントエンドのみ */}
                 <div className="button-submit" onClick={sendEmailInfo}>
                   <p>
                     送信{" "}

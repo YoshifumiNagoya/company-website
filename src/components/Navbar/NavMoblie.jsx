@@ -39,7 +39,9 @@ const NavMoblie = ({ theme, handleChangeTheme }) => {
             <Link to="/news" className="linknav">
               <li className="nav-item">NEWS</li>
             </Link>
-            <li className="nav-item">CONTACT</li>
+            <Link to="/contact" className="linknav">
+              <li className="nav-item">CONTACT</li>
+            </Link>
             <Switch onChange={handleChangeTheme} checked={theme === "light"} />
           </ul>
         </div>
