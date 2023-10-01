@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
+import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   const [navScrollcolor, setNavScrollColor] = useState(false);
@@ -21,6 +22,9 @@ const Navbar = () => {
         navScrollcolor ? "navbar-scroll-color navbar-main" : "navbar-main"
       }
     >
+      <span>
+        <img src={logo} alt="logo" />
+      </span>
       <ul>
         <Link to="/" className="linknav">
           <li className="nav-item">HOME</li>

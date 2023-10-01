@@ -16,6 +16,14 @@
   margin-top: 15px;
 }
 
+.mobile-view-header img {
+  display: block;
+  height: 40px;
+  width: auto;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
 .responsive-mobile-view {
   position: sticky;
   top: 0;

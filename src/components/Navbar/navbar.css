@@ -5,10 +5,17 @@
   display: flex;
   align-items: center;
   text-align: center;
-  justify-content: right;
+  justify-content: space-between;
   top: 0;
   position: sticky;
   z-index: 1;
+}
+
+.navbar-main img {
+  display: block;
+  height: 60px;
+  margin-left: 10px;
+  border-radius: 10px;
 }
 
 .navbar-scroll-color {

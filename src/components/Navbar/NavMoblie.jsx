@@ -3,6 +3,7 @@ import "./navmobile.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
 import Switch from "react-switch";
+import logo from "../../assets/logo.png";
 
 const NavMoblie = ({ theme, handleChangeTheme }) => {
   const [open, setOpen] = useState(false);
@@ -15,6 +16,7 @@ const NavMoblie = ({ theme, handleChangeTheme }) => {
         <p>
           <GiHamburgerMenu size={25} onClick={handleNavbaropen} />
         </p>
+        <img src={logo} alt="logo" />
       </div>
       {open ? (
         <div className="mobile-nav">
