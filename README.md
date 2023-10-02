@@ -1,4 +1,5 @@
-#デスクトップ　![Uploading desktop-version (1)-min (1).gif…]()
+#デスクトップ　![Uploading desktop-version (1)-min.gif…]()
+
 
 
 
