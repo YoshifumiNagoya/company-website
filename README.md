@@ -1,3 +1,4 @@
+##サンプルです
 #デスクトップ　![desktop-version (1)](https://github.com/YoshifumiNagoya/company-website/assets/142734255/3af9b12e-b364-4241-908b-866e8d914df4)
 
 #スマートフォン  ![mobile-version-min](https://github.com/YoshifumiNagoya/company-website/assets/142734255/8ebc7814-d1ef-4df4-a4f3-c5b395d36be4)
